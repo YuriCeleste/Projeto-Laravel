@@ -12,9 +12,8 @@ class PublisherFactory extends Factory
     public function definition()
     {
         return [
-            'name' => $this->faker->unique()->company, // Gera um nome de empresa único
+            'name' => $this->faker->unique()->company, 
             'address' => $this->faker->address,
         ];
     }
 }
-
